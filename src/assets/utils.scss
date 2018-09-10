@@ -1,0 +1,16 @@
+@import './variable.scss';
+
+/* 工具类 */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both
+}
+
+span.strong {
+	color: $main_color;
+	font-size: bold;
+}
